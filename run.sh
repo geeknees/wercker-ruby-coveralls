@@ -6,4 +6,4 @@ if [ "$GIT_BRANCH" = "HEAD" ]; then
   GIT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 fi
 echo "Git branch: $GIT_BRANCH"
-export CI_BRANCH=$GIT_BRANCH
+export GIT_BRANCH
