@@ -1,4 +1,10 @@
 box: ruby:2.5.0
+build:
+  steps:
+    - script:
+        name: echo
+        code: |
+          echo 'hello'
 
 publish:
   steps:
