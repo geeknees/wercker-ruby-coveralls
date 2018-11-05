@@ -1,1 +1,6 @@
-box: wercker/default
+box: ruby:2.5.0
+
+publish:
+  steps:
+    - internal/publish-step:
+      owner: geeknees
