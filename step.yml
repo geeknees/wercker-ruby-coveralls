@@ -1,0 +1,6 @@
+name: wercker-ruby-coveralls
+version: 0.0.1
+summary: Set coveralls branch name
+category: imported
+tags: []
+properties: []

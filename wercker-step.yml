@@ -1,0 +1,3 @@
+name: wercker-ruby-coveralls
+version: 0.0.1
+description: Set coveralls branch name
